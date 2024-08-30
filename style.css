@@ -42,6 +42,15 @@ body {
     font-family: Trebuchet, sans-serif;
 }
 
+#app2 {
+    display: flex;
+    justify-content: center;
+    position: absolute; /* Make it absolute to control its position */
+    top: 10%; /* Position it at the top of the page */
+    z-index: 2; /* Ensure it's above #app if needed */
+    font-family: Trebuchet, sans-serif;
+}
+
 .option {
     background-color: #e0e0e0;
     border: 2px solid #e0e0e0;

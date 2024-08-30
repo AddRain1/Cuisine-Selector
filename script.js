@@ -103,4 +103,3 @@ while (currentOptions[0] == currentOptions[1]) {
 }
 renderOptions();
 
-});
